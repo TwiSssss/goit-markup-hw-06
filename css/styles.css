@@ -965,7 +965,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 100%;
+  width: 100%;
   min-height: 584px;
   padding: 72px 24px 24px 24px;
   background: #fcfcfc;
@@ -998,6 +998,11 @@ p {
 
 
 
+
+
+
+
+
 /*----------------MOBILE----------------------*/
 
 
@@ -1008,7 +1013,10 @@ p {
 
 
 @media (min-width: 320px) and (max-width: 768px) {
-
+  .section-one {
+    padding: 100px 0;
+    height: 400px;
+  }
 
   .modal-window {
     max-width: 90%;
@@ -1051,7 +1059,7 @@ p {
     justify-content: center;
     column-gap: 24px;
     row-gap: 72px;
-    margin-bottom: 0px;
+     margin-bottom: 0px;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -1098,6 +1106,7 @@ p {
     max-width: 100%;
     justify-content: center;
     row-gap: 72px;
+    column-gap: 24px;
     margin-bottom: 0px;
     display: flex;
     flex-wrap: wrap;
@@ -1127,6 +1136,10 @@ p {
 /*----------------TABLET----------------------*/
 
 @media (min-width: 768px) and (max-width: 1158px) {
+  .section-one {
+    padding: 150px 0;
+    height: 500px;
+  }
   .address-section {
     display: block;
     justify-content: flex-end;
