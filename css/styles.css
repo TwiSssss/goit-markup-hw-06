@@ -987,7 +987,7 @@ p {
 @media (min-resolution: 192dpi) {
   .section-one {
       height: auto;
-      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name@2x.png);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name@2x.jpg);
   }
 }
 
@@ -1075,7 +1075,6 @@ p {
       padding: 0;
   }
   .section-three {
-      height: 100%;
       padding: 96px 0px;
   }
   .section-four {
@@ -1202,7 +1201,7 @@ p {
       padding: 0;
   }
   .section-three {
-      height: 100%;
+    
       padding: 96px 0px;
   }
 
